@@ -1,5 +1,5 @@
 // Calcula o tamanho de uma casinha de cachorro que possa ser adquirida com o orçamento dado pelo usuário
-
+// Função sqrt() 
 #include <cmath>
 #include <iostream>
 using namespace std;
@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
 	cin >> orcamento;
 
 	area = orcamento/COS_PER_SQ_FT;
-	comprimento = sqrt(area);
+	comprimento = sqrt(area); // acha a raiz quadrada de area
 
 	cout.setf(ios::fixed);
 	cout.setf(ios::showpoint);
