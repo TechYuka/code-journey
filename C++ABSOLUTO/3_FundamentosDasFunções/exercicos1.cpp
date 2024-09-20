@@ -67,5 +67,34 @@ int main(int argc, char const *argv[])
 
 	cout << endl << any_cast<double>(resultado) << endl;
 
+	resultado = pow(2.0, 3.0);
+
+	cout << endl << any_cast<double>(resultado) << endl;
+
+	resultado = pow(1.1, 2);
+
+	cout << endl << any_cast<double>(resultado) << endl;
+
+	resultado = abs(0);
+
+	cout << endl << any_cast<int>(resultado) << endl;
+
+	resultado = fabs(3.5);
+
+	cout << endl << any_cast<double>(resultado) << endl;
+
+	resultado = floor(5.1);
+
+	cout << endl << any_cast<double>(resultado) << endl;
+
+	resultado = pow(3.0, 2) / 2;
+
+	cout << endl << any_cast<double>(resultado) << endl;
+
+	resultado = sqrt(pow(3, 2));
+
+	cout << endl << any_cast<double>(resultado) << endl;
+
 	return 0;
+
 }
