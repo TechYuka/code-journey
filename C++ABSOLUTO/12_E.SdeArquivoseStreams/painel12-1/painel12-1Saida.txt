@@ -1,0 +1,4 @@
+A soma dos 3 primeros 
+Numeros no arquivo de entrada
+é 31532
+ 11 , 0 , 31521
