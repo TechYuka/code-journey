@@ -1,0 +1,1 @@
+Bom o hashmap está perdendo em tempo de execução para minha soluão de força bruta, alem disso eles retornam resultados diferentes.

@@ -30,10 +30,16 @@ public:
 
 int main(int argc, char const *argv[])
 {
-	int target = 10;
-	vector<int> nums = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+	int target = 1000;
+	// Declara e inicializa um vetor vazio
+    std::vector<int> nums;
 
-	//nicializa a classe Solution
+    // Preenche o vetor com os números de 1 a 1000
+    for (int i = 1; i <= 1000; ++i) {
+        nums.push_back(i);  // Adiciona o número ao vetor
+    }
+
+	//inicializa a classe Solution
 	Solution solucao;
 
 	vector<int> resultado = solucao.twoSum(nums, target); 
